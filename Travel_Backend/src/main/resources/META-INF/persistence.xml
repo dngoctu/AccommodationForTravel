@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.dnt_travel_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.dnt.travel.models.ChoLuuTru</class>
+    <class>com.dnt.travel.models.HinhAnhChoLuuTru</class>
+    <class>com.dnt.travel.models.ChiTietHoaDon</class>
+    <class>com.dnt.travel.models.ChiTietDatCho</class>
+    <class>com.dnt.travel.models.DanhGia</class>
+    <class>com.dnt.travel.models.TaiKhoan</class>
+    <class>com.dnt.travel.models.HinhAnhPhong</class>
+    <class>com.dnt.travel.models.KhuVuc</class>
+    <class>com.dnt.travel.models.Phong</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/choluutrudb?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Abc111@"/>
+    </properties>
+  </persistence-unit>
+</persistence>
